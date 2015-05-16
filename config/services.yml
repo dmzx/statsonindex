@@ -1,0 +1,9 @@
+services:
+    dmzx.statsonindex.listener:
+        class: dmzx\statsonindex\event\listener
+        arguments:
+            - @config
+            - @template
+            - @user
+        tags:
+            - { name: event.listener }
