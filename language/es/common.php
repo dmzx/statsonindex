@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 
-	'START_DATE'			=> 'We have been online since',
+	'START_DATE'			=> 'Estamos en línea desde',
 	'POSTS_PER_DAY_OTHER'	=> 'Mensajes por día <strong>%.2f</strong>',
 	'POSTS_PER_DAY_ZERO'	=> 'Mensajes por día <strong>Ninguno</strong>',
 	'POSTS_PER_TOPIC_OTHER'	=> 'Mensajes por tema <strong>%.2f</strong>',
