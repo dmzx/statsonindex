@@ -22,7 +22,7 @@ class listener implements EventSubscriberInterface
 
 	/** @var \phpbb\template\template */
 	protected $template;
-	
+
 	protected $user;
 
 	public function __construct(\phpbb\config\config $config, \phpbb\template\template $template, \phpbb\user $user)
